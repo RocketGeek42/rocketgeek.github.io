@@ -1,6 +1,6 @@
 <nav>
     <ul>
-      {% for item in site.data.navigation.yml %}
+      {% for item in site.data.navigation %}
         <li class="{% if item.url == page.url %}current{% endif %}">
           <a href="{{ item.url }}">{{ item.name }}</a>
         </li>
