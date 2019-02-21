@@ -2,13 +2,29 @@ body {
     margin: 60px auto;
     width: 70%;
 }
-nav ul, footer ul {
+nav ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    padding-top: 60px;
+    list-style: none;
+    font-weight: bold;
+}
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+}
+footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
 }
-nav ul li, footer ul li {
+footer ul li {
     display: inline;
     margin-right: 20px;
 }
