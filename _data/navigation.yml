@@ -1,7 +1,7 @@
 - name: Home
   url: /
 - name: Blog
-  url: /blog/index.html
+  url: /blog/
 - name: CV
   url: /cv/index.html
 - name: My Projects
