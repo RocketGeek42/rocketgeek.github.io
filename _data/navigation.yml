@@ -3,6 +3,6 @@
 - name: Blog
   url: /blog/
 - name: CV
-  url: /cv/index.html
+  url: /cv/
 - name: My Projects
   url: /my_projects/index.html
