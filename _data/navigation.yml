@@ -1,8 +1,8 @@
 - name: Home
   link: /
 - name: Blog
-  link: /blog
+  link: /blog/index.html
 - name: CV
-  link: /cv
+  link: /cv/index.html
 - name: My Projects
-  link: /my_projects
+  link: /my_projects/index.html
