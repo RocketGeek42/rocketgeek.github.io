@@ -64,6 +64,7 @@ ul.posts li {
 #my_apps ul {
     flex-direction: column;
 }
+
 #my_apps li {
     list-style: none;
 }
