@@ -60,3 +60,10 @@ ul.posts li {
 .current {
     color: blue;
 }
+
+#my_apps ul {
+    flex-direction: column;
+}
+#my_apps li {
+    list-style: none;
+}
