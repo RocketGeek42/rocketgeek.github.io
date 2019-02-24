@@ -6,6 +6,3 @@
   url: /cv/
 - name: My Projects
   url: /my_projects/
-  subfolderitems:
-    - page: JavaScript
-      url: /js/index.html
