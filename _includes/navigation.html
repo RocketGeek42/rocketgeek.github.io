@@ -4,6 +4,11 @@
       <a href="{{ item.url }}" {% if page.url == item.url %} class="current"{% endif %}>
         {{ item.name }}
       </a>
+      <ul>
+        {% for entry in item.subfolderitems %}
+        <li><a href="{{ entry.url }}">{{ entry.page }}</a></li>
+        {% endfor %}
+      </ul>
     {% endfor %}
   </ul>
 </nav>
